@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+.container,
+.week,
+.notes {
+    display: flex;
+    text-align: center;
+}
+
+.container {
+    max-width: 65vw;
+    justify-content: stretch;
+    display: flex;
+
+}
+
+.week span,
+.notes span {
+    border: 1px solid black;
+    padding: 2em;
+}
+
+.notes {
+    flex-direction: column;
+}
+
+.week {
+    flex-wrap: wrap;
+}
+
+.workweek {
+    width: 100%;
+}
+
+.weekend {
+    width: 100%;
+}
+
+.seciton span:nth-child(8) {
+    width: 50%;
+}
+
+.seciton span:nth-child(9) {
+    width: 50%;
+}
+
+.notes span {
+    height: 50%;
+}
+
+.container span {
+    flex-grow: 1;
+}
+
+
+
+
+

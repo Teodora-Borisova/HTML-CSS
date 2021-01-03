@@ -1,0 +1,88 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    /* max-width: 70em; */
+    margin: 0 auto;
+    padding: 4em;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    flex-basis: 100%;
+    border-bottom: 2px solid black;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 60%;
+    flex-wrap: wrap;
+}
+
+.one {
+    float: right;
+    border: 3px solid black;
+    padding: 1em;
+    background-color: white;
+}
+
+.one::before {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.sidebar {
+    flex: 1 0 10%;
+    margin-left: auto;
+}
+
+.sidebar a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.main {
+    flex: 1 0 80;
+}
+
+blockquote {
+    border-left: 1px solid lightgray;
+    padding-left: 1em;
+    width: 40%;
+    float: right;
+    font-style: italic;
+}
+
+blockquote p {
+   text-align: right;
+   display: block;
+}
+
+.two {
+    border: 3px solid black;
+    padding: 1em;
+    background-color: white;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+blockquote {
+    font-family: Georgia, serif;
+}
+

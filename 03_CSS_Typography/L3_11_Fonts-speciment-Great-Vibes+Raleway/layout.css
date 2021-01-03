@@ -1,0 +1,15 @@
+body {
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+.site-main {
+    display: inline-block;
+    width: 59%;
+}
+
+.site-sidebar {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+}

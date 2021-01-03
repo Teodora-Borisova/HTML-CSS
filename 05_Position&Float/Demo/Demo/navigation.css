@@ -1,0 +1,29 @@
+.site-nav {
+
+}
+
+.site-nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav ul:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.site-nav li {
+    display: block;
+    list-style: none outside;
+    float: left;
+   
+}
+
+.site-nav a {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1em 1.5em;
+}
+

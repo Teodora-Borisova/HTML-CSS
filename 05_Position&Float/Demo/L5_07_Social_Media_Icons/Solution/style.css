@@ -1,0 +1,39 @@
+@import url('../fontawesome-free-5.11.2-web/css/all.css');
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    border: 5px solid #EEE;
+    background-color: #EEE;	
+    border-radius: 50%;
+    padding: 1em;
+}
+
+ul {
+    display: inline-block;
+}
+
+a {
+    color: black;
+    border-radius: 50%;
+}
+
+ul li:first-child:hover a > i {
+    color: blue;
+}
+
+ul li:nth-child(2):hover a > i {
+    color: lightblue;
+}
+
+ul li:nth-child(3):hover a > i {
+    color: red;
+}
+
+ul li:nth-child(4):hover a > i {
+    color: lightblue;
+}
+
+ul li:last-child:hover a > i {
+    color: blueviolet;
+}

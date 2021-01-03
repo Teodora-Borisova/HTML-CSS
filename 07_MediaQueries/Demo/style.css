@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, button, input, select {
+    font: inherit;
+} 
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+body {
+    padding: 4em;
+}
+
+.site {
+    max-width: 60em;
+    padding: 4em;
+    margin: 0 auto;
+}
+
+@media ( min-width: 85.71em ) {
+    .site{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .site-header,
+    .site-footer {
+        flex: 1 0 100%;
+    }
+
+    .site-main {
+        flex: 0 1 70%;
+    }
+
+    .site-sidebar {
+        flex: 0 1 30%;
+    }
+    
+}

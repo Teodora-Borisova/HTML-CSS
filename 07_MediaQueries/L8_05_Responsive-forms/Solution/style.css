@@ -1,0 +1,47 @@
+@import url('../fontawesome-free-5.11.2-web/css/all.css');
+
+.form {
+    display: flex;
+    flex: 1 0 50%;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   border-radius: 0.3em;
+}
+
+fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #CCC;
+    border-radius: 0.3em;
+    max-width: px;
+    padding: 1em 2em;
+}
+
+legend {
+    display: flex;
+    border: 1px solid #000;
+    padding-left: 1em;
+    width: 120px;
+    border-radius: 0.3em;
+    background-color: #CCC;
+}
+
+input {
+    color: #000;
+}
+
+.button {
+    background-color: #000;
+    color: #FFF;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+input .username,
+input .password {
+    font-family: FontAwsome;
+    font-style: normal;
+
+}
+

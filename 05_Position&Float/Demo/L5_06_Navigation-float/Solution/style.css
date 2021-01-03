@@ -1,0 +1,114 @@
+html {
+    font-size: 16px;
+    font-family: Georgia, serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+h1 {
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+
+.site-title {
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+.site {
+    max-width: 70em;
+    margin: 0 auto;
+}
+
+.site-main {
+    display: block;
+    float: left;
+}
+
+.main-text {
+    width: 60%
+    display: block;
+}
+
+img {
+    display: block;
+    float: right;
+    width: 20%;
+    margin: 0 1em 0 1em;
+    border: 0.5em solid black;
+    padding: 0.5em;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 1.5rem 0.1em rgba(0, 0, 0, 0.5);
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    display: block;
+    border-left: 3px solid grey;
+    padding-left: 1em;
+    float: right;
+    font-style: italic;
+    width: 40%;
+}
+
+blockquote p {
+    text-align: right;
+}
+
+.two {
+    display: block;
+    float: left;
+    width: 20%;
+    border: 0.5em solid black;
+    padding-left: 0.5em;
+    margin: 0 1em 1em 0;
+
+}
+
+.site-sidebar {
+    display: block;
+    float: right;
+    padding: 0 0 0 2em;
+}
+
+.site-sidebar a  {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+.site-nav ul:after {
+    display: block;
+    content:'';
+    clear: both;
+}
+
+.header-nav a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+.site-header nav {
+    display: inline-block;
+    text-align: right;
+    width: 49%;
+}
+
+.branding {
+    display: inline-block;
+    width: 50%;
+}
+
+.header-nav ul li {
+    display: inline-block;
+}
+
+.site-header {
+    border-bottom: 1px solid black;
+}

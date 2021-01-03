@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.viewport {
+    height: 100vh;
+    background-color:lightblue;
+    position: relative;
+} 
+
+.viewport:nth-child(even) {
+    background-color: lightsalmon;
+    
+}
+
+.card {
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 12em;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 0.2em;
+    box-shadow: 0 0 1rem 0.2em rgba(0, 0, 0, 0.2);
+}
+
+.card:before {
+    display: block;
+    content: '';
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.5) inset;
+    padding-top: 56.25%;
+    z-index: 10;
+    position: relative;
+    pointer-events: none;
+}
+
+.card.ar-16x9:before {
+    padding-top: calc(( 9 / 16 ) * 100%);
+}
+
+.card.ar-9x16 {
+    width: 8em;
+}
+
+.card.ar-9x16:before {
+    padding-top: calc(( 16 / 9 ) * 100%);
+}
+
+.card .media {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background: blue;
+    /* z-index: 5; */
+}
+
+.card.portrait img {
+    display: block;
+    height: 100%;
+    width: auto;
+}
+
+.card.landscape img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card .icon {
+    line-height: 1;
+    position: absolute;
+    color: white;
+    bottom: 1.5em;
+    right: 1.5em;
+}

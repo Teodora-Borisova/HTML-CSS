@@ -1,0 +1,38 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2x;
+}
+
+nav a li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: green;
+}
+
+.site-header {
+    border-bottom: 1px solid #CCC;
+}
+
+.site-header nav{
+    display: inline-block;
+    width: 49%;
+    vertical-align: centre;
+}
+
+.site-branding {
+    display: inline-block;
+    width:50%;
+}
+
+.nav ul li{
+    display: inline-block;
+    text-align: 
+}
+
+nav {
+    text-align: left;
+}
